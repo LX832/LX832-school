@@ -10,8 +10,6 @@ public class Sample3_2 {
 			
 			int count;
 			
-			
-	
 			Scanner sc = new Scanner(System.in);
 			System.out.println("카운트 입력");
 			count = sc.nextInt();
@@ -43,6 +41,7 @@ public class Sample3_2 {
 				if(str.equals("y")) {
 					continue;
 				}else {
+					
 					break;
 				}
 			}

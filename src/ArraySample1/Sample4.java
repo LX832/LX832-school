@@ -20,7 +20,7 @@ public class Sample4 {
 				sco[i] = mo;
 				sum +=sco[i];
 				
-			//int total = kor + eng + mat;
+			int total = sum;
 			double aver = total/ 3.0;
 
 			
