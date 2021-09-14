@@ -7,7 +7,7 @@ public class Sample3_2 {
 
 
 		public static void main(String[] args) {
-			int cnt = 0;
+			
 			int count;
 			
 			
@@ -25,7 +25,7 @@ public class Sample3_2 {
 			boolean run = true;
 			
 			while(run) {
-				cnt++;
+				
 			System.out.println("데이터를 입력하셈");
 			int SearchData = sc.nextInt();
 		
@@ -33,17 +33,21 @@ public class Sample3_2 {
 			for(int i=0; i < Data.length; i++) {
 				if(SearchData == Data[i]) {
 					System.out.println(Data[i] +"는" + i +"번째");
-
-				
 		
-
-			
-			}else {
+				}				
+			}
+			if(run) {
+				System.out.println("데이터 검색을 계속하시겠습니까?(Y/N)");
+				String str = sc.next(); //문자열을 입력
 				
-			}
-			}
+				if(str.equals("y")) {
+					continue;
+				}else {
+					break;
+				}
 			}
 		}
+	}
 }
 		
 
