@@ -32,7 +32,7 @@ import java.util.Scanner;
  *  
  */
 
-public class MapSample1 {
+public class MapSample3 {
 	
 	public static void main(String[] args) {
 		
