@@ -9,7 +9,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class Oracle_Dept_Sub {
+public class Oracle_Dept_Sub2 {
 
 	//클래스 변수	
 	private String ino;
@@ -183,7 +183,7 @@ public class Oracle_Dept_Sub {
 				pstmt.setString(1, Department_NAME);
 				pstmt.setInt(2, Manager_ID);
 				pstmt.setInt(3, Location_ID);
-				pstmt.setInt(4, Department_ID);			
+				pstmt.setInt(4, Department_ID);		
 				
 				pstmt.executeUpdate();
 				System.out.println("데이터를 성공적으로 수정 하였습니다.");
@@ -275,10 +275,10 @@ public class Oracle_Dept_Sub {
 			pstmt.setInt(1, Department_ID);
 
 			pstmt.executeUpdate();
-			System.out.println("삭제가 성공했습니다.~~~");
+			System.out.println("삭제가 성공했습니다.");
 		} catch (SQLException e1) {
 			// e1.printStackTrace();
-			System.out.println("삭제가 실패했습니다.~~~");
+			System.out.println("삭제가 실패했습니다.");
 		}
 
 		try {

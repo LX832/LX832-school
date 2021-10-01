@@ -410,10 +410,10 @@ public class StudentTotalMethod {
 			pstmt.setInt(1, stu_no);
 
 			pstmt.executeUpdate();
-			System.out.println("삭제가 성공했습니다.~~~");
+			System.out.println("삭제가 성공했습니다.");
 		} catch (SQLException e1) {
 			// e1.printStackTrace();
-			System.out.println("삭제가 실패했습니다.~~~");
+			System.out.println("삭제가 실패했습니다.");
 		}
 
 		String sql2 = "select * from student";
